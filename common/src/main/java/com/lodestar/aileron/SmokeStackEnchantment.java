@@ -28,6 +28,11 @@ public class SmokeStackEnchantment extends Enchantment {
     }
 
     @Override
+    public boolean isTreasureOnly() {
+        return true;
+    }
+
+    @Override
     public int getMaxLevel() {
         return 3;
     }
